@@ -1,0 +1,45 @@
+.otstup {
+    margin-left: 69px;
+    max-width: 1446px;
+    box-sizing: border-box;
+    color:#363853;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+
+}
+
+.header-flex {
+    list-style: none;
+    width: 780px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.signin {
+    border: 0;
+    line-height: 2.5;
+    padding: 5px 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #FF6838;
+    box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+
+
+}
