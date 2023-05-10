@@ -2,7 +2,8 @@
     margin-left: 69px;
     max-width: 1446px;
     box-sizing: border-box;
-    color:#363853;
+    color: #363853;
+    font-family: "Rubik", sans-serif;
 }
 
 #logo {
@@ -17,7 +18,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-
+    padding: 0 66px;
 
 }
 
@@ -38,8 +39,49 @@
     text-align: center;
     color: #fff;
     border-radius: 5px;
-    background-color: #FF6838;
+    background-color: #FF7A50;
     box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+    cursor: pointer;
 
 
+}
+
+.signin:hover {
+    opacity: 0.5;
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.intro {
+    background-image: url('./graphics/Group36209.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 220px 66px 320px 66px;
+}
+
+.orange {
+    color: #FF7A50
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: 500;
+}
+
+.header-p {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.explore {
+    border: 0;
+    line-height: 2;
+    padding: 5px 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
 }
