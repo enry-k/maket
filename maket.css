@@ -1,6 +1,7 @@
 .otstup {
-    margin-left: 69px;
-    max-width: 1446px;
+    margin: 0 auto;
+    padding: 0;
+    width: 1308px;
     box-sizing: border-box;
     color: #363853;
     font-family: "Rubik", sans-serif;
@@ -13,12 +14,14 @@
 .header-list {
     display: flex;
     align-items: center;
-    margin-top: 60px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    padding: 0 66px;
+    padding-top: 63px;
+    padding-right: 72px;
+    padding-left: 67px;
+
 
 }
 
@@ -26,15 +29,17 @@
     list-style: none;
     width: 780px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
 
 .signin {
+    width: 120px;
+    min-height: 50px;
     border: 0;
-    line-height: 2.5;
-    padding: 5px 40px;
+    line-height: 21px;
+    padding: 10px;
     font-size: 18px;
     text-align: center;
     color: #fff;
@@ -56,7 +61,7 @@
     background-image: url('./graphics/Group36209.png');
     background-repeat: no-repeat;
     background-position: right;
-    padding: 220px 66px 320px 66px;
+    padding: 203px 66px 318px 63px;
 }
 
 .orange {
@@ -66,22 +71,33 @@
 h1 {
     font-size: 66px;
     font-weight: 500;
+    line-height: 78px;
+    text-transform: capitalize;
+    margin: 0;
 }
 
 .header-p {
     font-size: 20px;
     font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin: 0;
+    padding-top: 22px;
 
 }
 
 .explore {
     border: 0;
-    line-height: 2;
-    padding: 5px 40px;
+    width: 163px;
+    min-height: 51px;
+    line-height: 24px;
+    padding: 10px;
     font-size: 20px;
     text-align: center;
     color: #fff;
     border-radius: 5px;
     background-color: #FF7A50;
     box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+    margin-top: 47px;
+
 }
