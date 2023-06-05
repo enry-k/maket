@@ -7,6 +7,13 @@
     font-family: "Rubik", sans-serif;
 }
 
+.wrapper {
+    max-width: 1308px;
+    padding-left: 66px;
+    padding-right: 63px;
+
+}
+
 #logo {
     margin-right: auto;
 }
@@ -61,7 +68,7 @@
     background-image: url('./graphics/Group36209.png');
     background-repeat: no-repeat;
     background-position: right;
-    padding: 203px 66px 318px 63px;
+    padding: 203px 0 318px 0;
 }
 
 .orange {
@@ -100,4 +107,57 @@ h1 {
     box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
     margin-top: 47px;
 
+}
+
+.download a {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-skip-ink: none;
+    text-decoration: underline solid;
+    padding-left: 30px;
+    color: #363853
+}
+
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: capitalize;
+    margin: 0;
+
+}
+
+.grid-food {
+    display: grid;
+    grid-template-rows: 70px 279px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 29px;
+    row-gap: 40px;
+
+
+}
+
+.btn-food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 70px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+.btn-food:focus{
+    background-color: #FF7A50;
 }
