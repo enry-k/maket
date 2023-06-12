@@ -7,6 +7,9 @@
     font-family: "Rubik", sans-serif;
 }
 
+input, textarea, button {font-family: inherit}
+input, textarea, button {color: inherit}
+
 .wrapper {
     max-width: 1308px;
     padding-left: 66px;
@@ -156,8 +159,47 @@ h2 {
     font-size: 20px;
 
 
+
 }
+
+
 
 .btn-food:focus{
     background-color: #FF7A50;
+}
+
+.btn-food img {
+    margin-right: 10px;
+}
+
+.category {
+    font-weight: 400;
+    font-size: 15px;
+    align-items: center;
+    align-content: center;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    align-content: center;
+}
+
+.add {
+    border: 0;
+    width: 106px;
+    min-height: 32px;
+    line-height: 18px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #FF7A50;
+    box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+
+}
+
+article {
+
 }
