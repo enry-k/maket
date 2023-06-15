@@ -172,18 +172,14 @@ h2 {
     margin-right: 10px;
 }
 
-.category {
-    font-weight: 400;
-    font-size: 15px;
-    align-items: center;
-    align-content: center;
-}
 
 .price {
     font-weight: 500;
     font-size: 15px;
     align-items: center;
     align-content: center;
+    margin-bottom: 11px;
+
 }
 
 .add {
@@ -200,6 +196,116 @@ h2 {
 
 }
 
-article {
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.stars {
+    margin-top: -22px;
+    margin-bottom: 27px;
+}
+
+.name {
+    margin-bottom: 9px;
+}
+
+.stars-krivaya {
+    margin-bottom: 27px;
+}
+
+.kartinka {
+    padding-top: 10px;
+}
+
+.button-nav {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    min-width: 208px;
+}
+
+.btn-round {
+    margin: 0;
+    background-color: transparent;
+    min-height: 34px;
+    min-width: 34px;
+    border-radius: 50%;
+    border-color: #FF7A50;
+    border-width: medium;
+}
+
+.krugi {
+    display: inline-flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    min-width: 90px;
+    justify-content: space-around;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #363853;
+    opacity: 0.2;
+    height: 12px;
+    width: 12px;
+}
+
+.circle-o {
+    border-radius: 50%;
+    background-color:#FF7A50;
+    height: 12px;
+    width: 12px;
+}
+
+.benefits {
+    padding-top: 160px;
+    min-width: 1212px;
+    min-height: 723px;
+    background-image: url('./graphics/fooddelivery.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0;
+
+}
+
+
+.description {
+    margin-top: 80px;
+    min-width: 449px;
+    min-height: 497px;
+    padding-left: 763px;
+
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.description p {
+   font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.description div {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.description img {
+    padding-right: 22px;
+}
+
+.more {
+    min-width: 176px;
+    min-height: 58px;
 }
